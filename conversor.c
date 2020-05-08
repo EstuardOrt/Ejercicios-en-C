@@ -2,14 +2,13 @@
 #include <stdlib.h>
 
 int main ( int argc, char * argv[]){
-    char * palabra;
-    int num1;
-    scanf("%s", &palabra);
-    printf("Ingresaste: %s \n", &palabra);
+    int num1, num2;
     printf("Ingresa un numero:\n");
     scanf("%d", &num1);
+    printf("Ingresa otro numero:\n");
+    scanf("%d", &num2);
 
-    printf("\nIngresaste %d y su multiplicacion por 2 es %d",num1,num1*2);
+    printf("Ingresaste %d y su multiplicacion por %d es %d",num1,num2,num1*num2);
     
 
 }
